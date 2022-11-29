@@ -6,7 +6,7 @@
 ## to use this repository
  $ git clone https://github.com/imauice/imauice-mega-upload
 
-## install depodency
+## install dependencies
 $ npm install
 
 
