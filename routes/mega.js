@@ -19,10 +19,11 @@ router.post('/', function (req, res, next) {
       return;
     }
     res.writeHead(200, { 'content-type': 'text/plain' });
-    res.write('received upload:\n\n');
+    res.write('received upload:\n');
 
       //mega
       (async function () {
+        console.log('connecting...:\n');
         const storage = await new Storage({
           email: process.env.email,
           password: process.env.password
